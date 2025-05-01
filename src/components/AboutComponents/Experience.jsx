@@ -11,7 +11,7 @@ export const Experience = () => {
       {/* Left Side - Title */}
       <aside
         onClick={toggleSection}
-        className="w-1/3 mt-28 flex flex-col justify-start items-start cursor-pointer"
+        className="w-10/12 md:w-1/3 mt-28 flex flex-col justify-start items-start cursor-pointer"
       >
         <motion.h4
           animate={{
@@ -35,9 +35,9 @@ export const Experience = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.5 }}
-            className="w-2/3 flex flex-col gap-6 bg-zinc-900/50 p-4 text-white"
+            className="w-full md:w-2/3 flex flex-col gap-6 bg-zinc-900/50 p-4 text-white"
           >
-            <div>
+            <div className="w-full">
               <h3 className="text-2xl font-bold"> Full Stack Developer</h3>
               <p className="text-sm text-gray-300">Freelance / Remote</p>
               <p className="text-sm text-gray-400">2022 – Present</p>

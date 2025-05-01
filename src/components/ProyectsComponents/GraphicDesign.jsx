@@ -18,7 +18,7 @@ const GraphicDesign = () => {
   return (
     <div className="w-full p-4">
       {/* Category Tabs */}
-      <ul className="w-full flex gap-6 text-blue-200 text-2xl justify-evenly cursor-pointer mb-8">
+      <ul className="w-full flex flex-wrap gap-6 text-blue-200 text-2xl justify-evenly cursor-pointer mb-8">
         {categories.map((category, index) => (
           <motion.li
             key={category}

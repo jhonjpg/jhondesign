@@ -52,7 +52,7 @@ const AboutMe = () => {
        
         <InfoAboutMe/>
 
-          <div className="w-1/3  md:w-full flex flex-col gap-4 justify-start items-start p-2">
+          <div className="hidden md:block md:w-full flex flex-col gap-4 justify-start items-start p-2">
        
 
        <Experience/>

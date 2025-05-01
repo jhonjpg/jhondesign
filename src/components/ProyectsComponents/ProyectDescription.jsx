@@ -12,7 +12,7 @@ export const ProyectDescription = () => {
   );
 
   return (
-    <div className="absolute top-20 left-0 z-20">
+    <div className="hidden md:block absolute top-20 left-0 z-20">
       <span
         onClick={() => !expanded && setExpanded(true)}
         className={`bg-black text-white rounded-r-xl w-60 h-20 flex justify-center items-center transition-all duration-500 cursor-pointer ${
