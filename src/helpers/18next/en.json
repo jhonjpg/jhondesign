@@ -1,0 +1,289 @@
+{
+    "home": "Home",
+    "servicesNv": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "testimonialsNaV": "Testimonials",
+    "contact": "Contact",
+    "webDeveloper": "WEB DEVELOPER",
+    "jpgDev": "Hi, I'm",
+    "descripcion": "Responsible for creating and maintaining websites with programming and designs skills, as well as a deep understanding of languages and technologies related to web development.",
+    "start": "START",
+    "testimonial": "Testimonials",
+    "testimonialDesc": "What our clients say about working with us. See how we’ve helped bring their ideas to life with unique and functional websites.",
+    "toggleButtonShowMore": "More",
+    "toggleButtonShowLess": "Less",
+    "aboutMe": {
+        "about": "ABOUT ME",
+        "heading": "WHO",
+        "Im": " AM I ",
+        "description0": "I'm a passionate and self-taught Frontend Developer with 3 years of experience building responsive and user-friendly interfaces. I specialize in technologies like HTML, CSS, JavaScript, React, Tailwind CSS, and Git. I enjoy debugging, optimizing performance, and turning design concepts into functional, clean code. My experience includes working on freelance and personal projects, where I’ve had the chance to collaborate with clients, solve real-world problems, and constantly push myself to learn new tools and techniques. I’m highly motivated, detail-oriented, and always looking for opportunities to grow and create meaningful digital experiences.        ",
+        "toggleButtonKnowMore": "Know More",
+        "description1": "I am a self-taught web designser and developer with 3 years of experience. Over those 3 years, I took on and learned many platforms and technologies that allow me to stay alert and ahead of my competition. I strive to create custom websites for each client while providing them with the highest quality product on the market.",
+        "description2": "You'll be hiring someone who will provide you with an individualized website that meets your requirements.",
+        "description3": "Extensive technical knowledge: As a web developer, I have a solid understanding of programming languages like HTML, CSS, Bootstrap, Tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. I'm also familiar with tools and technologies related to web development.",
+        "toggleButtonShowMore": "Show More",
+        "toggleButtonShowLess": "Show Less",
+        "additionalDescription1": "I'm capable of tackling complex issues with creative and innovative solutions. My ability to think outside the conventional allows me to offer unique approaches to web designs and development.",
+        "additionalDescription2": "I'm meticulous in my work and pay attention to details. This is essential to ensure websites are accurate, run smoothly, and are visually appealing.",
+        "skillsHeading": "Skills"
+    },
+    "services": {
+        "servicios": "MY SERVICES",
+        "heading": "WHAT I",
+        "do": "DO",
+        "description0": "As a web developer, I specialize in designsing and developing attractive and functional user interfaces. With experience in React, JavaScript, and many other technologies, I focus on creating responsive and optimized websites to provide an exceptional user experience.",
+        "toggleButtonKnowMore": "Know More",
+        "description1": "I am a self-taught web designser and developer with 3 years of experience. Over those 3 years, I took on and learned many platforms and technologies that allow me to stay alert and ahead of my competition. I strive to create custom websites for each client while providing them with the highest quality product on the market.",
+        "description2": "You'll be hiring someone who will provide you with an individualized website that meets your requirements.",
+        "description3": "Extensive technical knowledge: As a web developer, I have a solid understanding of programming languages like HTML, CSS, Bootstrap, Tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. I'm also familiar with tools and technologies related to web development.",
+        "toggleButtonShowMore": "Show More",
+        "toggleButtonShowLess": "Show Less",
+        "additionalDescription1": "I'm capable of tackling complex issues with creative and innovative solutions. My ability to think outside the conventional allows me to offer unique approaches to web designs and development.",
+        "additionalDescription2": "I'm meticulous in my work and pay attention to details. This is essential to ensure websites are accurate, run smoothly, and are visually appealing.",
+        "skillsHeading": "Skills"
+    },
+    "servicesList": [{
+            "icon": "/src/assets/serviceIcon/icon1.png",
+            "title": "Web designs and Development",
+            "description": "We create custom and functional websites for a variety of clients, including businesses, entrepreneurs, educational institutions, and organizations.",
+            "buttonText": "Read More"
+        },
+        {
+            "icon": "/src/assets/serviceIcon/icon2.png",
+            "title": "UI/UX designs",
+            "description": "We specialize in designsing and developing powerful and modern websites for a wide range of businesses. My focus is on creating exceptional user experiences through elegant and functional interface designs.",
+            "points": ["Desktop designs", "Phone designs", "Tablet designs"]
+        },
+        {
+            "icon": "/src/assets/serviceIcon/icon3.png",
+            "title": "Responsive designs",
+            "description": "We ensure that the websites we create are fully responsive, meaning they will look and function optimally on a variety of devices, from desktop computers to tablets and mobile phones.",
+            "points": ["Desktop designs", "Phone designs", "Tablet designs"]
+        },
+        {
+            "icon": "/src/assets/serviceIcon/icon4.png",
+            "title": "Maintenance and Updates",
+            "description": "We offer comprehensive maintenance and regular update services to ensure the websites we create are always up-to-date and functioning correctly.",
+            "points": ["Desktop designs", "Phone designs", "Tablet designs"]
+        },
+        {
+            "icon": "/src/assets/serviceIcon/icon5.png",
+            "title": "Performance Optimization",
+            "description": "Optimizing websites for speed, reducing load times and improving overall performance to enhance user experience.",
+            "buttonText": "See Performance Examples",
+            "link": "./Jonathan-Resume.pdf",
+            "action": "download"
+        },
+
+
+        {
+            "icon": "/src/assets/serviceIcon/icon6.png",
+            "title": "Mobile App Development",
+            "description": "Building mobile-responsive web applications and leveraging React Native for cross-platform development.",
+            "buttonText": "Explore My Apps",
+            "link": "https://github.com/jhonjpg",
+            "action": "external"
+        }
+    ],
+
+
+
+
+    "servicesimg": [{
+        "title": "Additional designs",
+        "others": {
+            "img": [
+                "/designs/banners/banners.jpg",
+                "/designs/logos/logos.jpg",
+                "/designs/menu/menu1.jpg",
+                "/designs/publicidad/publicidad2.jpg"
+            ],
+            "names": ["BANNERS", "LOGOS", "MENU", "ADVERTISING"]
+        }
+    }],
+
+
+
+
+    "proyects": {
+        "proyect": "PROJECTS",
+        "heading": "EXPERIENCE",
+        "description0": "As a web developer, I specialize in designsing and developing attractive and functional user interfaces. With experience in React, JavaScript, and many other technologies, I focus on creating responsive and optimized websites to provide an exceptional user experience.",
+        "toggleButtonKnowMore": "Know More",
+        "description1": "I am a self-taught web designser and developer with 3 years of experience. Over those 3 years, I took on and learned many platforms and technologies that allow me to stay alert and ahead of my competition. I strive to create custom websites for each client while providing them with the highest quality product on the market.",
+        "description2": "You'll be hiring someone who will provide you with an individualized website that meets your requirements.",
+        "description3": "Extensive technical knowledge: As a web developer, I have a solid understanding of programming languages like HTML, CSS, Bootstrap, Tailwind, JavaScript, jQuery, React, Node.js, GitHub, MongoDB. I'm also familiar with tools and technologies related to web development.",
+        "toggleButtonShowMore": "Show More",
+        "toggleButtonShowLess": "Show Less",
+        "additionalDescription1": "I'm capable of tackling complex issues with creative and innovative solutions. My ability to think outside the conventional allows me to offer unique approaches to web designs and development.",
+        "additionalDescription2": "I'm meticulous in my work and pay attention to details. This is essential to ensure websites are accurate, run smoothly, and are visually appealing.",
+        "skillsHeading": "Skills"
+    },
+
+
+    "proyect": [
+
+        {
+            "proyectName": "Produktivo",
+            "description": "Produktivo is a modern marketing website crafted to elevate brand presence and connect with target audiences. Designed with clean visuals and strategic layout, it showcases the brand’s identity, values, and services through compelling content and responsive design. The site focuses on clarity, engagement, and professionalism—making it ideal for businesses seeking a strong digital introduction and lasting first impression",
+            "categoria": "media",
+            "imagen": "../src/assets/webdesign/produktive.png",
+            "imagen2": "../src/assets/webdesign/produktive2.png",
+            "link": "https://jhonjpg.github.io/produktivo/",
+            "bottom": "description",
+            "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg", "skills/reactjs.jpg", "skills/tailwind.jpg"]
+        },
+
+        {
+            "proyectName": "BeltranGold",
+            "description": "Discover the epitome of elegance and sophistication at BeltranGold. Mt website showcases a curated collection of exquisite jewelry, blending timeless beauty with modern design. Explore the allure of fine craftsmanship and find the perfect piece to adorn yourself or your loved ones.",
+            "categoria": "jewelry",
+            "imagen": "../src/assets/webdesign/jewelry.png",
+            "imagen2": "../src/assets/webdesign/jewelry2.png",
+            "link": "https://beltrangold.com",
+            "bottom": "description"
+        },
+
+        {
+            "proyectName": "Lift Gym",
+            "description": "An online destination designsed for a gym committed to health and wellness. The website provides fitness enthusiasts and those seeking an active lifestyle with the opportunity to explore facilities, learn about training programs, and discover a space where they can focus on achieving their fitness goals.",
+            "categoria": "media",
+            "imagen": "../src/assets/webdesign/webgym.jpg",
+            "imagen2": "../src/assets/webdesign/gym2.jpg",
+            "link": "https://jhonjpg.github.io/lyftgym/",
+            "bottom": "description"
+        },
+
+        {
+            "proyectName": "dreamHome",
+            "description": "The dreamHome website of Mrs. Marelin Zick, a real estate professional and expert in managing documents related to property buying and selling. This site is your gateway to a world of possibilities for finding your dream home and ensuring a seamless transaction.",
+            "categoria": "laws",
+            "imagen": "../src/assets/webdesign/dreamHome.jpg",
+            "imagen2": "../src/assets/webdesign/dreamHome2.jpg",
+            "link": "https://jhonjpg.github.io/dreamHome/",
+            "bottom": "description"
+        },
+
+        {
+            "proyectName": "glamour",
+            "description": "It is an elegant and modern website that combines the beauty of the makeup world with the relaxation and rejuvenation of spa treatments. The website was designsed and developed to provide visitors with a unique and attractive experience that reflects the essence of the services offered by the spa and makeup studio.",
+            "categoria": "beauty",
+            "imagen": "../src/assets/webdesign/glamour.jpg",
+            "imagen2": "../src/assets/webdesign/glamour2.jpg",
+            "link": "https://jhonjpg.github.io/glamour/",
+            "bottom": "description"
+        },
+
+        {
+            "proyectName": "The Kath Cafeteria",
+            "description": "It is a vibrant and appetizing website designsed for a fast-food business that offers a variety of tasty options to satisfy fast-food cravings. The website captures the essence of modern fast food by providing visitors with an attractive and convenient online experience to explore the menu, place orders, and learn more about the business.",
+            "categoria": "foods",
+            "imagen": "../src/assets/webdesign/kathPage.jpg",
+            "imagen2": "../src/assets/webdesign/kathPage2.jpg",
+            "link": "https://jhonjpg.github.io/theKathCafeteria/",
+            "bottom": "description"
+        },
+
+        {
+            "proyectName": "Dra. Melina",
+            "description": "The website of Dr. Melina, a highly experienced aesthetic surgeon committed to enhancing the natural beauty of her patients. My site is an online space where individuals can explore a wide range of aesthetic procedures designsed to boost confidence and improve self-esteem.",
+            "categoria": "medical",
+            "imagen": "../src/assets/webdesign/dramelina.jpg",
+            "imagen2": "../src/assets/webdesign/dramelina2.jpg",
+            "link": "https://jhonjpg.github.io/DraMelina/",
+            "bottom": "description"
+        },
+
+        {
+            "proyectName": "barberShop",
+            "description": "The website of the leading barbershop offering top-notch haircuts and personal grooming services for modern men. Here, craftsmanship meets elegance in an environment that celebrates masculinity and individual style.",
+            "categoria": "beauty",
+            "imagen": "../src/assets/webdesign/barber.jpg",
+            "imagen2": "../src/assets/webdesign/barber2.jpg",
+            "link": "https://jhonjpg.github.io/BarberShop/",
+            "bottom": "description"
+
+        },
+        {
+            "proyectName": "Rosa Gutierrez Asoc",
+            "description": "It is a professional and modern website designsed for a law firm committed to providing expert legal advice and solutions to its clients. The website reflects the seriousness and reliability of the firm while offering visitors an accessible platform to learn about available legal services and get in touch with the lawyers.",
+            "categoria": "laws",
+            "imagen": "../src/assets/webdesign/law.jpg",
+            "imagen2": "../src/assets/webdesign/law2.jpg",
+            "link": "https://jhonjpg.github.io/RosaGutierrezAsoc/",
+            "bottom": "description"
+        }
+    ],
+
+
+
+    "graphicDesign": [{
+            "proyectName": "logo",
+            "design": ["../src/assets/canvasDesign/logos/logos.jpg", "../src/assets/canvasDesign/logos/logos1.mp4", "../src/assets/canvasDesign/logos/logos3.mp4", "../src/assets/canvasDesign/logos/logos4.mp4", "../src/assets/canvasDesign/logos/logos5.mp4", "../src/assets/canvasDesign/logos/logos6.mp4", "../src/assets/canvasDesign/logos/logos7.mp4", "../src/assets/canvasDesign/logos/logos8.mp4", "../src/assets/canvasDesign/logos/logos9.mp4", "../src/assets/canvasDesign/logos/logos10.jpg"]
+        },
+        {
+            "proyectName": "banners",
+            "design": ["../src/assets/canvasDesign/banners/banners.jpg", "../src/assets/canvasDesign/banners/banners6.mp4", "../src/assets/canvasDesign/banners/banners2.mp4", "../src/assets/canvasDesign/banners/banners3.mp4", "../src/assets/canvasDesign/banners/banners4.mp4", "../src/assets/canvasDesign/banners/banners5.mp4", "/designs/banners/banners1.mp4"]
+        },
+        {
+            "proyectName": "menu",
+            "design": ["../src/assets/canvasDesign/menu/menu1.jpg", "../src/assets/canvasDesign/menu/menu2.jpg", "../src/assets/canvasDesign/menu/menu3.jpg", "../src/assets/canvasDesign/menu/menu4.jpg", "../src/assets/canvasDesign/menu/menu5.jpg"]
+        },
+        {
+            "proyectName": "advertising",
+            "design": ["../src/assets/canvasDesign/publicidad/publicidad1.jpg", "../src/assets/canvasDesign/publicidad/publicidad2.jpg", "../src/assets/canvasDesign/publicidad/publicidad3.jpg", "../src/assets/canvasDesign/publicidad/publicidad4.jpg"]
+        }
+    ],
+
+
+
+
+
+    "testimonials": [
+
+
+
+        {
+            "name": "Santiago Martínez",
+            "message": "Jhon Design is an incredibly talented developer. He helped us transform our vision into a functional and beautiful website. His attention to detail and ability to solve problems quickly impressed us. I can't recommend him enough.",
+            "image": "https://images.pexels.com/photos/28560709/pexels-photo-28560709/free-photo-of-man-in-traditional-clothing-on-sunny-day.jpeg?auto=compress&cs=tinysrgb&w=800"
+        },
+        {
+            "name": "Andrea López",
+            "message": "Working with Jhon Design was an excellent experience. He perfectly understood what our company needed and created a website that exceeded our expectations. He was always available to adjust details and improve the user experience.",
+            "image": "https://images.pexels.com/photos/28570314/pexels-photo-28570314/free-photo-of-confident-young-woman-in-glasses-portrait.jpeg?auto=compress&cs=tinysrgb&w=800"
+        },
+
+        {
+            "name": "Carlos Ramírez",
+            "message": "Jhon Design has a great ability to understand the business behind the website. He not only created a visually appealing page but also optimized everything to ensure that traffic and conversion improved. A true professional.",
+            "image": "https://images.pexels.com/photos/28571177/pexels-photo-28571177/free-photo-of-young-man-jumping-with-joy-outdoors.jpeg?auto=compress&cs=tinysrgb&w=800"
+        },
+
+        {
+            "name": "Marcela Gómez",
+            "message": "Jhon Design proved to be an expert in web development. From day one, he offered us innovative and creative solutions. The result was a fast, modern, and easy-to-navigate website. I will definitely hire him again.",
+            "image": "https://images.pexels.com/photos/28582416/pexels-photo-28582416/free-photo-of-smiling-woman-with-braided-hair-at-night.jpeg?auto=compress&cs=tinysrgb&w=800"
+        },
+
+        {
+            "name": "Luis Hernández",
+            "message": "What I liked most about working with Jhon Design was his passion and commitment to the project. He doesn't settle for the basics; he always seeks to improve and deliver the best. Our website now looks professional and functional, all thanks to him.",
+            "image": "https://images.pexels.com/photos/28578761/pexels-photo-28578761/free-photo-of-dramatic-black-and-white-male-portrait.jpeg?auto=compress&cs=tinysrgb&w=800"
+        }
+    ],
+
+
+    "contactDiv": {
+        "contactMe": "CONTACT ME",
+        "contactInfo": "contact",
+        "downloadCV": "Download CV",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "message": "Message",
+        "submit": "Send"
+    }
+
+}
