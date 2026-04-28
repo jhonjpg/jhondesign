@@ -44,11 +44,11 @@ const WebDesign = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="w-full overflow-hidden rounded-md">
+                  <div className="w-full bg-red-400 h-68 overflow-hidden rounded-md">
                     <img
                       src={`jhondesign/${proyecto.imagen}`}
                       alt={proyecto.proyectName}
-                      className="w-full h-auto object-cover hover:scale-105 transition-transform duration-300"
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     />
                   </div>
 

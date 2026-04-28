@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite' // <--- 1. Importa esto
+
 export default defineConfig({
-    plugins: [{
-            base: '/jhondesign/',
-        },
-        tailwindcss(),
+    plugins: [
+        react(),
+        tailwindcss(), // <--- 2. Agrégalo aquí
     ],
+    base: '',
 })

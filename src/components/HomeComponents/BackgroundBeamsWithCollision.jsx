@@ -30,7 +30,7 @@ export const BackgroundBeamsWithCollision = ({
       translateX: 100,
       duration: 7,
       repeatDelay: 7,
-      className: "h-6",
+      className: "h-40",
     },
     {
       initialX: 400,
@@ -44,14 +44,14 @@ export const BackgroundBeamsWithCollision = ({
       translateX: 800,
       duration: 11,
       repeatDelay: 2,
-      className: "h-20",
+      className: "h-40",
     },
     {
       initialX: 1000,
       translateX: 1000,
       duration: 4,
       repeatDelay: 2,
-      className: "h-12",
+      className: "h-40",
     },
     {
       initialX: 1200,
@@ -59,7 +59,16 @@ export const BackgroundBeamsWithCollision = ({
       duration: 6,
       repeatDelay: 4,
       delay: 2,
-      className: "h-6",
+      className: "h-40",
+    },
+
+    {
+      initialX: 1200,
+      translateX: 1200,
+      duration: 6,
+      repeatDelay: 4,
+      delay: 2,
+      className: "h-40",
     },
   ];
 
@@ -81,7 +90,7 @@ export const BackgroundBeamsWithCollision = ({
       {children}
       <div
         ref={containerRef}
-        className="absolute bottom-0 bg-neutral-100 w-full inset-x-0 pointer-events-none"
+        className="absolute bottom-0 bg-green-700 w-full inset-x-0 pointer-events-none"
         style={{
           boxShadow:
             "0 0 24px rgba(34, 42, 53, 0.06), 0 1px 1px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(34, 42, 53, 0.04), 0 0 4px rgba(34, 42, 53, 0.08), 0 16px 68px rgba(47, 48, 55, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1) inset",

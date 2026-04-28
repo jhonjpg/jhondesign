@@ -44,31 +44,31 @@
         "skillsHeading": "Skills"
     },
     "servicesList": [{
-            "icon": "./assets/serviceIcon/icon1.png",
+            "icon": "src/assets/serviceIcon/icon1.png",
             "title": "Web designs and Development",
             "description": "We create custom and functional websites for a variety of clients, including businesses, entrepreneurs, educational institutions, and organizations.",
             "buttonText": "Read More"
         },
         {
-            "icon": "./assets/serviceIcon/icon2.png",
+            "icon": "src/assets/serviceIcon/icon2.png",
             "title": "UI/UX designs",
             "description": "We specialize in designsing and developing powerful and modern websites for a wide range of businesses. My focus is on creating exceptional user experiences through elegant and functional interface designs.",
             "points": ["Desktop designs", "Phone designs", "Tablet designs"]
         },
         {
-            "icon": "./assets/serviceIcon/icon3.png",
+            "icon": "src/assets/serviceIcon/icon3.png",
             "title": "Responsive designs",
             "description": "We ensure that the websites we create are fully responsive, meaning they will look and function optimally on a variety of devices, from desktop computers to tablets and mobile phones.",
             "points": ["Desktop designs", "Phone designs", "Tablet designs"]
         },
         {
-            "icon": "./assets/serviceIcon/icon4.png",
+            "icon": "src/assets/serviceIcon/icon4.png",
             "title": "Maintenance and Updates",
             "description": "We offer comprehensive maintenance and regular update services to ensure the websites we create are always up-to-date and functioning correctly.",
             "points": ["Desktop designs", "Phone designs", "Tablet designs"]
         },
         {
-            "icon": "./assets/serviceIcon/icon5.png",
+            "icon": "src/assets/serviceIcon/icon5.png",
             "title": "Performance Optimization",
             "description": "Optimizing websites for speed, reducing load times and improving overall performance to enhance user experience.",
             "buttonText": "See Performance Examples",
@@ -78,7 +78,7 @@
 
 
         {
-            "icon": "./assets/serviceIcon/icon6.png",
+            "icon": "src/assets/serviceIcon/icon6.png",
             "title": "Mobile App Development",
             "description": "Building mobile-responsive web applications and leveraging React Native for cross-platform development.",
             "buttonText": "Explore My Apps",
@@ -94,10 +94,10 @@
         "title": "Additional designs",
         "others": {
             "img": [
-                "./assets/canvasDesign/banners/banners.jpg",
-                "./assets/canvasDesign/logos/logos.jpg",
-                "./assets/canvasDesign/menu/menu1.jpg",
-                "./assets/canvasDesign/publicidad/publicidad2.jpg"
+                "src/assets/canvasDesign/banners/banners.jpg",
+                "src/assets/canvasDesign/logos/logos.jpg",
+                "src/assets/canvasDesign/menu/menu1.jpg",
+                "src/assets/canvasDesign/publicidad/publicidad2.jpg"
             ],
             "names": ["BANNERS", "LOGOS", "MENU", "ADVERTISING"]
         }
@@ -128,8 +128,8 @@
             "proyectName": "Produktivo",
             "description": "I developed a responsive corporate site using React.js and Tailwind CSS, designed for clarity and fast performance. Navigation was handled with React Router to simulate a multi-page feel. I used EmailJS for the contact form to allow direct messaging without a backend, keeping the setup lightweight and efficient. The goal was to create a clean, conversion-focused site that communicates services clearly on any device.",
             "categoria": "media",
-            "imagen": "./assets/webdesign/produktive.png",
-            "imagen2": "./assets/webdesign/produktive2.png",
+            "imagen": "../src/assets/webdesign/produktive.png",
+            "imagen2": "../src/assets/webdesign/produktive2.png",
             "link": "https://jhonjpg.github.io/produktivo/",
             "bottom": "description",
             "tecnologies": ["skills/html.jpg", "skills/csss.jpg", "skills/javascript.jpg", "skills/reactjs.jpg", "skills/tailwind.jpg"]
@@ -139,8 +139,8 @@
             "proyectName": "BeltranGold",
             "description": "I built this full-stack e-commerce site using React for the frontend and Node.js for the backend, with Stripe integration for secure and seamless payments. The goal was to create a responsive, elegant shopping experience with dynamic product browsing, smooth category navigation, and customer testimonials to build trust. This project demonstrates my ability to develop real-world features like product catalogs, reviews, and checkout functionality from design to deployment.                ",
             "categoria": "jewelry",
-            "imagen": "./assets/webdesign/jewelry.png",
-            "imagen2": "./assets/webdesign/jewelry2.png",
+            "imagen": "../src/assets/webdesign/jewelry.png",
+            "imagen2": "../src/assets/webdesign/jewelry2.png",
             "link": "https://vercel.com/jhonjpgs-projects/beltrangold-frontend",
             "bottom": "description"
         },
@@ -149,8 +149,8 @@
             "proyectName": "Jon's Charades",
             "description": "I built this mobile charades game using React Native, designed for fun and fast-paced group play. The app features multiple categories, a countdown timer, and bilingual word support in English and Spanish to ensure accessibility and cultural variety. My goal was to create an engaging and user-friendly experience with smooth transitions, intuitive touch controls, and real-time score tracking. This project showcases my ability to develop interactive mobile applications, handle dynamic content, and optimize performance across devices from design to deployment.                ",
             "categoria": "charades",
-            "imagen": "./assets/webdesign/jonC.png",
-            "imagen2": "./assets/webdesign/charaadest.png",
+            "imagen": "../src/assets/webdesign/jonC.png",
+            "imagen2": "../src/assets/webdesign/charaadest.png",
             "link": "https://expo.dev/preview/update?message=Fixed+the+score+bug&updateRuntimeVersion=1.0.0&createdAt=2026-01-16T10%3A58%3A30.857Z&slug=exp&projectId=37e41835-8426-4c92-a810-08d56966be0d&group=4e1b9c60-bcdf-4ca2-a65d-041a9b12d031",
             "bottom": "description"
         },
@@ -159,8 +159,8 @@
             "proyectName": "Lift Gym",
             "description": "I built this single-page fitness site using React.js with custom CSS for full control over layout and responsiveness. It features sections like membership pricing, trainer profiles, and gym benefits—organized to deliver essential info clearly and attractively. Smooth navigation and a clear call-to-action guide users toward joining. Although backend-free, the structure supports future expansion (e.g., booking or contact forms). This project shows my strength in building clean, user-focused SPAs with a strong layout and UX foundation.",
             "categoria": "media",
-            "imagen": "./assets/webdesign/webgym.jpg",
-            "imagen2": "./assets/webdesign/gym2.jpg",
+            "imagen": "../src/assets/webdesign/webgym.jpg",
+            "imagen2": "../src/assets/webdesign/gym2.jpg",
             "link": "https://jhonjpg.github.io/lyftgym/",
             "bottom": "description"
         },
@@ -169,7 +169,7 @@
             "proyectName": "dreamHome",
             "description": "I built a responsive single-page site using React.js for a real estate advisor to present services, pricing, testimonials, and contact info in a clear, trustworthy format. Services like property evaluation, negotiation, and investment guidance are detailed to highlight expertise. I designed the pricing section to be location- and service-specific, making options easy to understand. Testimonials from real clients reinforce credibility. The project focuses on layout clarity, user trust, and scalable structure for future backend integration.            ",
             "categoria": "laws",
-            "imagen": "./assets/webdesign/dreamHome.jpg",
+            "imagen": "../src/assets/webdesign/dreamHome.jpg",
             "imagen2": "./assets/webdesign/dreamHome2.jpg",
             "link": "https://jhonjpg.github.io/dreamHome/",
             "bottom": "description"
@@ -180,8 +180,8 @@
             "proyectName": "Sharks",
             "description": "This educational React app teaches users about shark species, anatomy, behavior, conservation, and their role in marine ecosystems. It features species profiles, migration maps, a knowledge quiz, and a live shark tracker using real tagging data. While building the project, I explored and implemented parallax scrolling effects to enhance visual depth and engagement—applying new UI/UX concepts in a real-world context. Designed with custom CSS, the app delivers an informative and interactive experience across devices.            ",
             "categoria": "shark",
-            "imagen": "./assets/webdesign/shark1.png",
-            "imagen2": "./assets/webdesign/shark2.png",
+            "imagen": "../src/assets/webdesign/shark1.png",
+            "imagen2": "../src/assets/webdesign/shark2.png",
             "link": "https://jhonjpg.github.io/sharkweb/",
             "bottom": "description"
         },
@@ -190,8 +190,8 @@
             "proyectName": "glamour",
             "description": "A stylish and responsive React website showcasing services like makeup, nails, spa treatments, and skincare. Built to highlight expert, personalized care with an emphasis on confidence and natural beauty. The site includes detailed service sections, before-and-after galleries, and a strong call to action. I used React.js for smooth component-based navigation and custom CSS to craft an elegant, inviting interface that prioritizes user experience and visual flow.                ",
             "categoria": "beauty",
-            "imagen": "./assets/webdesign/glamour.jpg",
-            "imagen2": "./assets/webdesign/glamour2.jpg",
+            "imagen": "../src/assets/webdesign/glamour.jpg",
+            "imagen2": "../src/assets/webdesign/glamour2.jpg",
             "link": "https://jhonjpg.github.io/glamour/",
             "bottom": "description"
         },
@@ -200,8 +200,8 @@
             "proyectName": "The Kath Cafeteria",
             "description": "A vibrant and appetizing website built for a fast-food business, designed to showcase a diverse menu and streamline the customer experience. Developed with React.js and custom CSS, the site allows users to explore offerings, learn about the brand, and simulate placing orders. The layout emphasizes modern fast-food aesthetics and user convenience, reflecting strong attention to UI design, responsiveness, and intuitive navigation.            ",
             "categoria": "foods",
-            "imagen": "./assets/webdesign/kathPage.jpg",
-            "imagen2": "./assets/webdesign/kathPage2.jpg",
+            "imagen": "../src/assets/webdesign/kathPage.jpg",
+            "imagen2": "../src/assets/webdesign/kathPage2.jpg",
             "link": "https://jhonjpg.github.io/theKathCafeteria/",
             "bottom": "description"
         },
@@ -210,8 +210,8 @@
             "proyectName": "Dra. Melina",
             "description": "The website of Dr. Melina, a highly experienced aesthetic surgeon committed to enhancing the natural beauty of her patients. My site is an online space where individuals can explore a wide range of aesthetic procedures designsed to boost confidence and improve self-esteem.",
             "categoria": "medical",
-            "imagen": "./assets/webdesign/dramelina.jpg",
-            "imagen2": "./assets/webdesign/dramelina2.jpg",
+            "imagen": "../src/assets/webdesign/dramelina.jpg",
+            "imagen2": "../src/assets/webdesign/dramelina2.jpg",
             "link": "https://jhonjpg.github.io/DraMelina/",
             "bottom": "description"
         },
@@ -220,8 +220,8 @@
             "proyectName": "barberShop",
             "description": "The website of the leading barbershop offering top-notch haircuts and personal grooming services for modern men. Here, craftsmanship meets elegance in an environment that celebrates masculinity and individual style.",
             "categoria": "beauty",
-            "imagen": "./assets/webdesign/barber.jpg",
-            "imagen2": "./assets/webdesign/barber2.jpg",
+            "imagen": "../src/assets/webdesign/barber.jpg",
+            "imagen2": "../src/assets/webdesign/barber2.jpg",
             "link": "https://jhonjpg.github.io/BarberShop/",
             "bottom": "description"
 
@@ -230,8 +230,8 @@
             "proyectName": "Rosa Gutierrez Asoc",
             "description": "It is a professional and modern website designsed for a law firm committed to providing expert legal advice and solutions to its clients. The website reflects the seriousness and reliability of the firm while offering visitors an accessible platform to learn about available legal services and get in touch with the lawyers.",
             "categoria": "laws",
-            "imagen": "./assets/webdesign/law.jpg",
-            "imagen2": "./assets/webdesign/law2.jpg",
+            "imagen": "../src/assets/webdesign/law.jpg",
+            "imagen2": "../src/assets/webdesign/law2.jpg",
             "link": "https://jhonjpg.github.io/RosaGutierrezAsoc/",
             "bottom": "description"
         }
