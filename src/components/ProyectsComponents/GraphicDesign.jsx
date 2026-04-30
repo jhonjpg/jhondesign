@@ -8,7 +8,6 @@ const GraphicDesign = () => {
 
   const graphicDesign = t('graphicDesign', { returnObjects: true });
 
-  // ✅ Extract categories from the JSON data
   const categories = graphicDesign.map((item) => item.proyectName);
 
   const handleComponentClick = (category) => {
@@ -17,8 +16,8 @@ const GraphicDesign = () => {
 
   return (
     <div className="w-full p-4">
-      {/* Category Tabs */}
-      <ul className="w-full flex flex-wrap gap-6 text-blue-200 text-2xl justify-evenly cursor-pointer mb-8">
+      {/* CATEGORY TABS */}
+      <ul className="w-full flex flex-wrap gap-6 text-blue-200 text-2xl uppercase justify-evenly cursor-pointer mb-10">
         {categories.map((category, index) => (
           <motion.li
             key={category}
@@ -32,60 +31,56 @@ const GraphicDesign = () => {
             }`}
           >
             {category.charAt(0).toUpperCase() + category.slice(1)}
+
             {selectedCategory === category && (
               <motion.span
                 layoutId="underline"
                 className="absolute left-0 -bottom-1 h-1 bg-white rounded-full"
                 style={{ width: '100%' }}
-                transition={{ duration: 0.3 }}
               />
             )}
           </motion.li>
         ))}
       </ul>
 
-      {/* Grid Container */}
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 auto-rows-[200px]">
+      {/* TRUE MASONRY GALLERY */}
+      <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-5 space-y-5">
         {graphicDesign
           .filter((item) => item.proyectName === selectedCategory)
           .flatMap((item) =>
             item.design.map((designItem, index) => {
               const isVideo = designItem.endsWith('.mp4');
-              const randomSpan =
-                index % 5 === 0
-                  ? 'col-span-2 row-span-2'
-                  : index % 3 === 0
-                  ? 'col-span-2'
-                  : '';
 
               return (
-                <li
+                <motion.div
                   key={index}
-                  className={`relative w-full h-full ${randomSpan} bg-black rounded-xl overflow-hidden`}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.4 }}
+                  className="break-inside-avoid overflow-hidden rounded-2xl bg-black/40 cursor-pointer group"
                 >
                   {isVideo ? (
                     <video
                       autoPlay
                       muted
-                      playsInline
                       loop
-                      className="w-full h-full object-contain"
+                      playsInline
+                      className="w-full h-auto rounded-2xl group-hover:scale-105 duration-300"
                     >
                       <source src={designItem} type="video/mp4" />
-                      Your browser does not support the video tag.
                     </video>
                   ) : (
                     <img
                       src={designItem}
                       alt={`Design ${index}`}
-                      className="w-full h-full object-contain"
+                      className="w-full h-auto rounded-2xl object-cover group-hover:scale-105 duration-300"
                     />
                   )}
-                </li>
+                </motion.div>
               );
             })
           )}
-      </ul>
+      </div>
     </div>
   );
 };

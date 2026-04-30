@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { BackgroundBeamsWithCollision } from '../components/HomeComponents/BackgroundBeamsWithCollision';
 import { useTranslation } from 'react-i18next';
-import jhon from '../assets/photo/jhon1.png';
+import jhon from '../../public/assets/photo/jhon1.png';
 
 export const Home = () => {
   const { t } = useTranslation();

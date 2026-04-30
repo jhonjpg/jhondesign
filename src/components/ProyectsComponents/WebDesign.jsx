@@ -44,7 +44,7 @@ const WebDesign = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="w-full bg-red-400 h-68 overflow-hidden rounded-md">
+                  <div className="w-full  h-68 overflow-hidden rounded-md">
                     <img
                       src={`jhondesign/${proyecto.imagen}`}
                       alt={proyecto.proyectName}

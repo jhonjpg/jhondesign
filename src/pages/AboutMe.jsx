@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
-import moon from '../assets/items/moon.png';
 import Skills from '../components/AboutComponents/Skills';
 import { Experience } from '../components/AboutComponents/Experience';
 import { Education } from '../components/AboutComponents/Education';
