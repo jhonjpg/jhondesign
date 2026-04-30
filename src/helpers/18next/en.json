@@ -44,31 +44,31 @@
         "skillsHeading": "Skills"
     },
     "servicesList": [{
-            "icon": "/assets/serviceIcon/icon1.png",
+            "icon": "./assets/serviceIcon/icon1.png",
             "title": "Web designs and Development",
             "description": "We create custom and functional websites for a variety of clients, including businesses, entrepreneurs, educational institutions, and organizations.",
             "buttonText": "Read More"
         },
         {
-            "icon": "/assets/serviceIcon/icon2.png",
+            "icon": "./assets/serviceIcon/icon2.png",
             "title": "UI/UX designs",
             "description": "We specialize in designsing and developing powerful and modern websites for a wide range of businesses. My focus is on creating exceptional user experiences through elegant and functional interface designs.",
             "points": ["Desktop designs", "Phone designs", "Tablet designs"]
         },
         {
-            "icon": "/assets/serviceIcon/icon3.png",
+            "icon": "./assets/serviceIcon/icon3.png",
             "title": "Responsive designs",
             "description": "We ensure that the websites we create are fully responsive, meaning they will look and function optimally on a variety of devices, from desktop computers to tablets and mobile phones.",
             "points": ["Desktop designs", "Phone designs", "Tablet designs"]
         },
         {
-            "icon": "/assets/serviceIcon/icon4.png",
+            "icon": "./assets/serviceIcon/icon4.png",
             "title": "Maintenance and Updates",
             "description": "We offer comprehensive maintenance and regular update services to ensure the websites we create are always up-to-date and functioning correctly.",
             "points": ["Desktop designs", "Phone designs", "Tablet designs"]
         },
         {
-            "icon": "/assets/serviceIcon/icon5.png",
+            "icon": "./assets/serviceIcon/icon5.png",
             "title": "Performance Optimization",
             "description": "Optimizing websites for speed, reducing load times and improving overall performance to enhance user experience.",
             "buttonText": "See Performance Examples",
@@ -78,7 +78,7 @@
 
 
         {
-            "icon": "/assets/serviceIcon/icon6.png",
+            "icon": "./assets/serviceIcon/icon6.png",
             "title": "Mobile App Development",
             "description": "Building mobile-responsive web applications and leveraging React Native for cross-platform development.",
             "buttonText": "Explore My Apps",
