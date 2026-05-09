@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import jhon from '../../../public/assets/photo/jhon2.jpg'
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import resume from '../../../public/assets/items/jonathanResume.pdf'
+
 
 export const InfoAboutMe = () => {
   const { t } = useTranslation();
@@ -37,7 +39,7 @@ export const InfoAboutMe = () => {
       </article>
 
       <a
-        href="../src/assets/items/Jonathan-Resume.pdf"
+        href={resume}
         download
         className="inline-block w-72 px-20 mx-30 py-3 bg-zinc-900 text-white rounded-2xl shadow-md hover:bg-blue-700 hover:shadow-lg transition duration-300 ease-in-out"
       >

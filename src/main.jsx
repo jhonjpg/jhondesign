@@ -4,8 +4,7 @@ import "tailwindcss";
 import { I18nextProvider } from 'react-i18next';
 import i18n from './helpers/libs/18n';
 import App from './App'
-import './css/App.css'
-import './css/index.css'
+
 
 
 
