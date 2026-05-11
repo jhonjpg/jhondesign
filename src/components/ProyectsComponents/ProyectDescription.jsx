@@ -58,7 +58,9 @@ export const ProyectDescription = () => {
               {filtered.length > 0 ? (
                 filtered.map((pro, i) => (
                   <li key={i} className="bg-white text-black p-2 rounded shadow">
-                    <img src={pro.imagen} alt={pro.proyectName} className="w-full h-32 object-cover mb-2 rounded" />
+                    <img     src={pro.imagen.replace(/\.\.\//g, "")}
+ alt={pro.proyectName} 
+                    className="w-full h-32 object-cover mb-2 rounded" />
                     <p className="font-bold">{pro.proyectName}</p>
                     <p className="text-sm">{pro.description}</p>
                   </li>

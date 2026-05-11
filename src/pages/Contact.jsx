@@ -127,7 +127,7 @@ export const Contact = () => {
             <input
               type="hidden"
               name="_next"
-              value="https://jhonjpg.github.io/jpgdesig/"
+              value="https://jhonjpg.github.io/jhondesign/"
             />
             <input type="hidden" name="_captcha" value="false" />
           </form>
